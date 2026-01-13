@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SMS Forwarder</string>
+    <string name="target_email_hint">Target Email Address</string>
+    <string name="smtp_host_hint">SMTP Host (e.g. smtp.gmail.com)</string>
+    <string name="smtp_port_hint">SMTP Port (e.g. 587 or 465)</string>
+    <string name="username_hint">SMTP Username/Email</string>
+    <string name="password_hint">SMTP Password (App Password)</string>
+    <string name="subscribe_btn">Subscribe / Start</string>
+    <string name="unsubscribe_btn">Unsubscribe / Stop</string>
+    <string name="status_label">Status: </string>
+    <string name="status_running">Running</string>
+    <string name="status_stopped">Stopped</string>
+    <string name="permission_rationale">This app requires SMS permissions to function.</string>
+</resources>

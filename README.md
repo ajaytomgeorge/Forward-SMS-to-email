@@ -13,16 +13,22 @@ Just leave your phone with the home SIM at home (connected to WiFi), install thi
 
 ## 📥 Installation
 
-### Quick Install (Recommended)
-1. Download the APK from the [releases](./releases/) folder
+### Option 1: Download APK (Recommended)
+1. Download `app-debug.apk` from the [releases](./app/release/) folder
 2. Transfer to your Android device
 3. Enable "Install from unknown sources" if prompted
 4. Install the APK
 
-### Build from Source
-1. Clone this repository
-2. Open in Android Studio
-3. Build and run on your device
+### Option 2: Build from Source
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/ajaytomgeorge/Forward-SMS-to-email.git
+   ```
+2. Open the project in Android Studio
+3. Wait for Gradle sync to complete
+4. Connect your Android device via USB (enable USB debugging)
+5. Click **Run** (green play button) or use **Build → Build Bundle(s) / APK(s) → Build APK(s)**
+6. The APK will be generated at: `app/build/outputs/apk/debug/app-debug.apk`
 
 ## 📱 Supported Android Versions
 
